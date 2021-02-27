@@ -1,8 +1,12 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: true, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Helvetica', 'Arial', 'sans-serif'],
+      }
+    },
   },
   variants: {
     extend: {},
