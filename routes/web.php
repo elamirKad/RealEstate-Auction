@@ -14,9 +14,9 @@ use App\Http\Controllers\LotsController;
 |
 */
 
-Route::get('/', function () {
-    return view('realestate.index');
-});
+Route::get('/', [App\Http\Controllers\LotsController::class, 'index']);
+
+Route::get('/offers', [App\Http\Controllers\LotsController::class , 'offers']);
 
 Auth::routes();
 

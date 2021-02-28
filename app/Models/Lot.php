@@ -8,8 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 use App\Models\User;
 class Lot extends Model
 {
-    protected $table = 'auction_lot';
     use HasFactory;
+    //Table name
+    protected $table = 'auction_lot';
+    //Primary key
+    public $primaryKey = 'id';
+    //Time Stamps
+    public $timestamps = true;
 
     public function user()
     {
