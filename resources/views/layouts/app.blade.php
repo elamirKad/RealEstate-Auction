@@ -23,7 +23,7 @@
         <nav class="p-6 bg-indigo-600 flex justify-between mb-6 text-white">
             <ul class="flex items-center">
                 <li class="p-3">
-                    <a href="/index">Main</a>
+                    <a href="/">Main</a>
                 </li>
                 <li class="p-3">
                     <a href="/home">Dashboard</a>
