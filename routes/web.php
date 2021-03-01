@@ -14,7 +14,7 @@ use App\Http\Controllers\LotsController;
 |
 */
 
-Route::get('/', [App\Http\Controllers\LotsController::class, 'index']);
+Route::get('/', [App\Http\Controllers\LotsController::class, 'main']);
 
 Route::get('/offers', [App\Http\Controllers\LotsController::class , 'offers']);
 

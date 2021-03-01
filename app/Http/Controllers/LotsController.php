@@ -21,4 +21,13 @@ class LotsController extends Controller
         $lot = Lot::find($id);
         return view('posts.show')->with('lot', $lot);
     }
+
+    public function main(){
+        $test = [
+            'rrr' => 'RRR',
+            'eee' => 'EEE',
+            'ttt' => 'TTT'
+        ];
+        return view('realestate.main')->with('test', $test);
+    }
 }
