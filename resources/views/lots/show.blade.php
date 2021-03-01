@@ -9,4 +9,7 @@
     <div>
         {!!$lot->description!!}
     </div>
+    @for ($i = 0; $i < 5; $i++)
+        {{ $i }}
+    @endfor
 @endsection
