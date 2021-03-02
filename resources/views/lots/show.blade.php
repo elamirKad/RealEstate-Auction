@@ -5,10 +5,10 @@
         <a href="/offers" class="btn btn-default">Go back</a>
         <div class="row ">
             <div class="col-md-4 col-sm-4">
-                <img src="storage/cover_images/ddd1.jpeg" style="width: 100%;">
+                <img src="/storage/cover_images/ddd1.jpeg" style="width: 100%;">
             </div>
             <div class="col-md-8 col-sm-8">
-                <h2 style="font-size: 24px;"><a href="/show/{{$lot->id}}">{{$lot->name}}</a></h2>
+                <h2 style="font-size: 24px;">{{$lot->name}}</h2>
             </div>
             <div class="col-md-8 col-sm-8 mt-2">
                 <p>Description: {{$lot->description}}</p>

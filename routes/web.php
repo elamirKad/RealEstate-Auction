@@ -18,6 +18,7 @@ Route::get('/', [App\Http\Controllers\LotsController::class, 'main']);
 
 Route::get('/offers', [App\Http\Controllers\LotsController::class , 'offers']);
 
+Route::get('/offers/{id}', [App\Http\Controllers\LotsController::class , 'show']);
 
 Auth::routes();
 
