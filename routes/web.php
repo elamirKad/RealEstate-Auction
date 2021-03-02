@@ -18,6 +18,7 @@ Route::get('/', [App\Http\Controllers\LotsController::class, 'main']);
 
 Route::get('/offers', [App\Http\Controllers\LotsController::class , 'offers']);
 
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
