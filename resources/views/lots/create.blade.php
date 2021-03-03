@@ -9,6 +9,14 @@
             {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}
         </div>
         <div class="form-group">
+            {{Form::label('address', 'Address')}}
+            {{Form::text('address', '', ['class' => 'form-control', 'placeholder' => 'Address'])}}
+        </div>
+        <div class="form-group">
+            {{Form::label('price', 'Price')}}
+            {{Form::number('price', '', ['class' => 'form-control', 'placeholder' => '100000'])}}
+        </div>
+        <div class="form-group">
             {{Form::label('body', 'Body')}}
             {{Form::textarea('body', '', ['id' => 'article-ckeditor','class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>

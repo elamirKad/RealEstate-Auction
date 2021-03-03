@@ -41,6 +41,8 @@ class LotsController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
+            'address' => 'required',
+            'price' => 'required',
             //'cover_image' => 'image|nullable|max:1999'
         ]);
 
@@ -62,8 +64,10 @@ class LotsController extends Controller
 
         //Create Lot
         $lot = new Lot;
-        $lot->title = $request->input('title');
-        $lot->body = $request->input('body');
+        $lot->name = $request->input('title');
+        $lot->description = $request->input('body');
+        $lot->address = $request->input('address');
+        $lot->price = $request->input('price');
         $lot->user_id = auth()->user()->id;
         //$lot->cover_image = $fileNameToStore;
         $lot->save();
