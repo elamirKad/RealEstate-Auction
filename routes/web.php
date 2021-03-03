@@ -20,6 +20,10 @@ Route::get('/offers', [App\Http\Controllers\LotsController::class , 'offers']);
 
 Route::get('/offers/{id}', [App\Http\Controllers\LotsController::class , 'show']);
 
+Route::get('/create', [App\Http\Controllers\LotsController::class , 'create']);
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('lots',LotsController::class);
