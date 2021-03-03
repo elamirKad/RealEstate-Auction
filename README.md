@@ -7,4 +7,4 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<img src="https://ibb.co/F50xsR7">
+<a href="https://ibb.co/F50xsR7"><img src="https://i.ibb.co/0CFDBHJ/Screenshot-from-2021-03-03-23-57-00.png" alt="Screenshot-from-2021-03-03-23-57-00" border="0"></a>
